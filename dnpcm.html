@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<head>
+    <title>틀:다트라이렌 총리 - 위키아</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./dex.css">
+    <link rel="stylesheet" href="./dnp.css">
+    <script src="./dex.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <script src="https://kit.fontawesome.com/2d0c169afb.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="./위키아 아이콘.png">
+</head>
+
+
+<script>
+    function dnpcmhidebutton()  {
+        const row = document.getElementById('dnpcmhideshow');
+        row.style.display = 'none';
+    }
+    
+    function dnpcmshowbutton()  {
+        const row = document.getElementById('dnpcmhideshow');
+        row.style.display = '';
+    }
+</script>
+<table class="dnpcm">
+  <thead>
+    <tr>
+      <th colspan="10" style="border: none; border-radius: 10px;">
+        <div class="tabletop">
+           <div class="tabletops">
+            <a href="./dnp.html">
+            <img src="./dnp logo.png" alt="" height=80px;></a>
+           </div>
+           <div class="tabletoph">
+            <a style="color: #aa852a;" href="./dnp.html">다트라이렌 국회</a><br>
+            <span style="font-size: 35px; color: #aa852a;">원내 구성</span>
+           </div>
+        </div>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan='10' class="hsbutton">
+        <button class="hsbutton" onclick="var row = document.getElementById('dnpcmhideshow'); if (row.style.display == 'none') { dnpcmshowbutton(row); } else { dnpcmhidebutton(row); }"><b>[ 펼치기 · 접기 ]</b></button>
+      </td>
+    </tr>
+  </tbody>
+  <tbody id='dnpcmhideshow' style="display:none;">
+    <tr>
+      <th colspan="10">
+        제3차 포로론 라이란 내각<br>
+        (2024 ~ 현재)
+      </th>
+    </tr>
+    <tr>
+      <td colspan="10">여당</td>
+    </tr>
+    <tr>
+      <td colspan="10" style="background: #3A97FF; color: #fff;">
+        <a href="./cse.html"><img src="./cse logo text white.png" alt="" height="70px"><br>
+        보수동맹</a><br>
+        <div class="euseoc">
+            79석  <span style="color: #3A97FF;">202석</span>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="10">야당</td>
+    </tr>
+    <tr>
+      <td colspan="5" style="background: #F81E1E; color: #fff;">
+        <a href="./rbp.html"><img src="./rbp logo text white.png" alt="" height="70px"><br>
+        자유당</a><br>
+        <div class="euseoc">
+            71석  <span style="color: #F81E1E;">157석</span>
+        </div>
+      </td>
+      <td colspan="5" style="background: #2340BB; color: #fff;">
+        <a href="./fdu.html"><img src="./fdu logo text white.png" alt="" height="70px"><br>
+        미래민주연합</a><br>
+        <div class="euseoc" style="background: linear-gradient(100deg, transparent 50%,#fff 50%);">
+            100석  <span style="color: #2340BB;">141석</span>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="10">
+        <div class="euseoc" style="background: #0F096C; border: #0F096C;">재적 250석 • 500석</div><br>
+        좌측은 상원 의석 수, 우측은 하원 의석 수
+      </td>
+    </tr>
+  </tbody>
+  <thead>
+    <tr>
+      <th colspan="10" style="border: none; border-radius: 10px;">
+      </th>
+    </tr>
+  </thead>
+</table>
+
+</body>
+</html>

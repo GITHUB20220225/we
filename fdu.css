@@ -1,0 +1,40 @@
+table.fdu {
+    border-collapse: collapse;
+    border-spacing: 0px;
+    text-align: center;
+    font-size: 25px;
+    box-shadow: 0px 0px 0px 3px #2340BB;
+    background: #2340BB;
+    border-radius: 10px; 
+    line-height: 40px;
+    width: 550px;
+    table-layout: fixed;
+}
+table.fdu {
+    margin-left: auto;
+    margin-right: 0;
+}
+table.fdu thead th {
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    color: #fff;
+    background: #2340BB;
+    border: 2px solid #dddddd;
+    text-align: center;
+    vertical-align: middle;
+}
+table.fdu thead td {
+    padding: 10px;
+    font-weight: normal;
+    vertical-align: top;
+    color: #000;
+    background: #fff;
+    vertical-align: middle;
+    text-align: left;
+    border: 2px solid #dddddd;
+}
+table.fdu thead th.th1 {
+    background: #f0f0f0;
+    color: #2340BB;
+}

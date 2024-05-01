@@ -1,0 +1,40 @@
+table.rbp {
+    border-collapse: collapse;
+    border-spacing: 0px;
+    text-align: center;
+    font-size: 25px;
+    box-shadow: 0px 0px 0px 3px #F81E1E;
+    background: #F81E1E;
+    border-radius: 10px;  
+    line-height: 40px;
+    width: 550px;
+    table-layout: fixed;
+}
+table.rbp {
+    margin-left: auto;
+    margin-right: 0;
+}
+table.rbp thead th {
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    color: #fff;
+    background: #F81E1E;
+    border: 2px solid #dddddd;
+    text-align: center;
+    vertical-align: middle;
+}
+table.rbp thead td {
+    padding: 10px;
+    font-weight: normal;
+    vertical-align: top;
+    color: #000;
+    background: #fff;
+    vertical-align: middle;
+    text-align: left;
+    border: 2px solid #dddddd;
+}
+table.rbp thead th.th1 {
+    background: #f0f0f0;
+    color: #F81E1E;
+}

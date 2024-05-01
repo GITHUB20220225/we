@@ -1,0 +1,104 @@
+table.dpm {
+    border-collapse: collapse;
+    border-spacing: 0px;
+    text-align: center;
+    font-size: 25px;
+    box-shadow: 0px 0px 0px 3px #06185a;
+    background: #06185a;
+    border-radius: 10px; 
+    line-height: 40px;
+    width: 525px;
+    table-layout: fixed;
+}
+table.dpm {
+    margin-left: auto;
+    margin-right: 0;
+}
+table.dpm thead th {
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    color: #a67e1c;
+    background: #06185a;
+    border: 2px solid #dddddd;
+    border-left: none;
+    text-align: center;
+    vertical-align: middle;
+}
+table.dpm thead td {
+    padding: 10px;
+    font-weight: normal;
+    vertical-align: top;
+    color: #000;
+    background: #fff;
+    vertical-align: middle;
+    text-align: left;
+    border: 2px solid #dddddd;
+}
+table.dpm thead td.hsbutton {
+    padding: 0;
+} 
+table.dpm thead td.hsbutton:hover {
+    background: #f0f0f0;
+    cursor: pointer;
+}
+
+table.dpmcm {
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 25px;
+    box-shadow: 0px 0px 0px 3px #06185a;
+    background: #06185a;
+    border-radius: 10px; 
+    line-height: 40px;
+    width: 100%;
+    table-layout: fixed;
+    margin-bottom: 25px;
+}
+table.dpmcm {
+    margin-left: auto;
+    margin-right: auto;
+}
+table.dpmcm thead th {
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    color: #a67e1c;
+    background: #06185a;
+    border: 2px solid #dddddd;
+    text-align: center;
+    vertical-align: middle;
+}
+table.dpmcm thead td {
+    padding: 10px;
+    font-weight: normal;
+    vertical-align: top;
+    color: #000;
+    background: #fff;
+    vertical-align: middle;
+    text-align: center;
+    border: 2px solid #dddddd;
+}
+table.dpmcm tbody th {
+    padding: 10px;
+    border: 2px solid #dddddd;
+    border-left: none;
+    color: #a67e1c;
+    vertical-align: middle;
+    text-align: center;
+    background: #06185a;
+}
+table.dpmcm tbody td {
+    padding: 10px;
+    border: 2px solid #dddddd;
+    background: #fff;
+    vertical-align: middle;
+    text-align: center;
+}
+table.dpmcm tbody td.hsbutton {
+    padding: 0;
+} 
+table.dpmcm tbody td.hsbutton:hover {
+    background: #f0f0f0;
+    cursor: pointer;
+}

@@ -1,0 +1,165 @@
+table.dnp {
+    border-collapse: collapse;
+    border-spacing: 0px;
+    text-align: center;
+    font-size: 25px;
+    box-shadow: 0px 0px 0px 3px #0F096C;
+    background: #0F096C;
+    border-radius: 10px; 
+    line-height: 40px;
+    width: 525px;
+    table-layout: fixed;
+}
+table.dnp {
+    margin-left: auto;
+    margin-right: 0;
+}
+table.dnp thead th {
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    color: #aa852a;
+    background: #0F096C;
+    border: 2px solid #dddddd;
+    border-left: none;
+    text-align: center;
+    vertical-align: middle;
+}
+table.dnp thead td {
+    padding: 10px;
+    font-weight: normal;
+    vertical-align: top;
+    color: #000;
+    background: #fff;
+    vertical-align: middle;
+    text-align: left;
+    border: 2px solid #dddddd;
+}
+
+
+table.dnpcm {
+    border-collapse: collapse;
+    border-spacing: 0px;
+    text-align: center;
+    font-size: 25px;
+    box-shadow: 0px 0px 0px 3px #0F096C;
+    background: #0F096C;
+    border-radius: 10px; 
+    line-height: 40px;
+    margin-bottom: 25px;
+    width: 525px;
+    table-layout: fixed;
+}
+table.dnpcm {
+    margin-left: auto;
+    margin-right: auto;
+}
+table.dnpcm thead th {
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    color: #aa852a;
+    background: #0F096C;
+    border: 2px solid #dddddd;
+    text-align: center;
+    vertical-align: middle;
+}
+table.dnpcm thead td {
+    padding: 10px;
+    font-weight: normal;
+    vertical-align: top;
+    color: #000;
+    background: #fff;
+    vertical-align: middle;
+    text-align: center;
+    border: 2px solid #dddddd;
+}
+table.dnpcm tbody th {
+    padding: 10px;
+    border: 2px solid #dddddd;
+    border-left: 2px solid #dddddd;
+    border-right: 2px solid #dddddd;
+    color: #000;
+    vertical-align: middle;
+    text-align: center;
+    background: #f0f0f0;
+}
+table.dnpcm tbody td {
+    padding: 10px;
+    font-weight: bold;
+    border: 2px solid #dddddd;
+    background: #fff;
+    vertical-align: middle;
+    text-align: center;
+}
+table.dnpcm tbody td.hsbutton {
+    padding: 0;
+} 
+table.dnpcm tbody td.hsbutton:hover {
+    background: #f0f0f0;
+    cursor: pointer;
+}
+
+table.dnpcm a {
+    color: #fff;
+}
+
+table.belgcm {
+    border-collapse: collapse;
+    border-spacing: 0px;
+    text-align: center;
+    font-size: 25px;
+    box-shadow: 0px 0px 0px 3px #18296c;
+    background: #18296c;
+    border-radius: 10px; 
+    line-height: 40px;
+    width: 100%;
+    table-layout: fixed;
+    margin-bottom: 25px;
+}
+table.belgcm {
+    margin-left: auto;
+    margin-right: auto;
+}
+table.belgcm thead th {
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    color: #ffce04;
+    background: #18296c;
+    border: 2px solid #dddddd;
+    text-align: center;
+    vertical-align: middle;
+}
+table.belgcm thead td {
+    padding: 10px;
+    font-weight: normal;
+    vertical-align: top;
+    color: #000;
+    background: #fff;
+    vertical-align: middle;
+    text-align: center;
+    border: 2px solid #dddddd;
+}
+table.belgcm tbody th {
+    padding: 10px;
+    border: 2px solid #dddddd;
+    color: #fff;
+    vertical-align: middle;
+    text-align: center;
+    background: #f0f0f0;
+}
+table.belgcm tbody td {
+    padding: 10px;
+    border: 2px solid #dddddd;
+    background: #fff;
+    vertical-align: middle;
+    text-align: center;
+}
+table.belgcm tbody td.hsbutton {
+    padding: 0;
+} 
+table.belgcm tbody td.hsbutton:hover {
+    background: #f0f0f0;
+    cursor: pointer;
+}
