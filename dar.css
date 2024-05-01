@@ -85,7 +85,8 @@ table.dargwry {
     font-size: 25px;
     box-shadow: 0px 0px 0px 3px #18296c;
     background: #18296c;
-    border-radius: 10px; 
+    border-radius: 10px;
+    line-height: 40px;
     width: 100%;
     table-layout: fixed;
     margin-bottom: 25px;
