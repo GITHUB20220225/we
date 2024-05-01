@@ -363,6 +363,10 @@ a.atbbutton:hover {
     vertical-align: middle;
 }
 
+table {
+    margin-top: 25px;
+}
+
 .euseoc {
     text-align: center;
     border: 2px solid #fff;
