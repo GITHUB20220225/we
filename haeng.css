@@ -1,0 +1,114 @@
+table.haeng {
+    border-collapse: collapse;
+    border-spacing: 0px;
+    text-align: center;
+    font-size: 25px;
+    box-shadow: 0px 0px 0px 3px #18296c;
+    background: #18296c;
+    border-radius: 10px; 
+    line-height: 40px;
+    width: 550px;
+    table-layout: fixed;
+}
+table.haeng {
+    margin-left: auto;
+    margin-right: 0;
+}
+table.haeng thead th {
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    color: #fff;
+    background: #18296c;
+    border: 2px solid #dddddd;
+    text-align: center;
+    vertical-align: middle;
+}
+table.haeng thead td {
+    padding: 10px;
+    font-weight: normal;
+    vertical-align: top;
+    color: #000;
+    background: #fff;
+    vertical-align: middle;
+    text-align: center;
+    border: 2px solid #dddddd;
+}
+table.haeng thead th.thfull {
+    border: 2px solid #dddddd;
+    border-left: none;
+    border-right: none;
+}
+table.haeng thead th.th1 {
+    background: #ffce04;
+    color: #000;
+}
+table.haeng thead td.td1 {
+    text-align: left;
+}
+
+table.haeng thead th.th2 {
+    text-align: center;
+}
+
+table.haengcm {
+    border-collapse: collapse;
+    border-spacing: 0px;
+    text-align: center;
+    font-size: 25px;
+    box-shadow: 0px 0px 0px 3px #18296c;
+    background: #18296c;
+    border-radius: 10px; 
+    line-height: 40px;
+    width: 100%;
+    table-layout: fixed;
+    margin-bottom: 25px;
+}
+table.haengcm {
+    margin-left: auto;
+    margin-right: auto;
+}
+table.haengcm thead th {
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    color: #ffce04;
+    background: #18296c;
+    border: 2px solid #dddddd;
+    text-align: center;
+    vertical-align: middle;
+}
+table.haengcm thead td {
+    padding: 10px;
+    font-weight: normal;
+    vertical-align: top;
+    color: #000;
+    background: #fff;
+    vertical-align: middle;
+    text-align: center;
+    border: 2px solid #dddddd;
+}
+table.haengcm tbody th {
+    padding: 10px;
+    border: 2px solid #dddddd;
+    border-left: none;
+    border-right: none;
+    color: #fff;
+    vertical-align: middle;
+    text-align: center;
+    background: #18296c;
+}
+table.haengcm tbody td {
+    padding: 10px;
+    border: 2px solid #dddddd;
+    background: #fff;
+    vertical-align: middle;
+    text-align: center;
+}
+table.haengcm tbody td.hsbutton {
+    padding: 0;
+} 
+table.haengcm tbody td.hsbutton:hover {
+    background: #f0f0f0;
+    cursor: pointer;
+}

@@ -1,0 +1,102 @@
+table.aten {
+    border-collapse: collapse;
+    border-spacing: 0px;
+    text-align: center;
+    font-size: 25px;
+    box-shadow: 0px 0px 0px 3px #3eace9;
+    background: #3eace9;
+    border-radius: 10px; 
+    line-height: 40px;
+    width: 525px;
+    table-layout: fixed;
+}
+table.aten {
+    margin-left: auto;
+    margin-right: 0;
+}
+table.aten thead th {
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    color: #fff;
+    background: #3eace9;
+    border: 2px solid #dddddd;
+    border-left: none;
+    text-align: center;
+    vertical-align: middle;
+}
+table.aten thead td {
+    padding: 10px;
+    font-weight: normal;
+    vertical-align: top;
+    color: #000;
+    background: #fff;
+    vertical-align: middle;
+    text-align: left;
+    border: 2px solid #dddddd;
+}
+table.aten thead th.thfull {
+    border: 2px solid #dddddd;
+    border-left: none;
+    border-right: none;
+}
+
+table.atencm {
+    border-collapse: collapse;
+    border-spacing: 0px;
+    text-align: center;
+    font-size: 25px;
+    box-shadow: 0px 0px 0px 3px #3eace9;
+    background: #3eace9;
+    border-radius: 10px; 
+    line-height: 40px;
+    width: 100%;
+    margin-bottom: 25px;
+}
+table.atencm {
+    margin-left: auto;
+    margin-right: auto;
+}
+table.atencm thead th {
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    color: #fff;
+    background: #3eace9;
+    border: 2px solid #dddddd;
+    text-align: center;
+    vertical-align: middle;
+}
+table.atencm thead td {
+    padding: 10px;
+    font-weight: normal;
+    vertical-align: top;
+    color: #000;
+    background: #fff;
+    vertical-align: middle;
+    text-align: center;
+    border: 2px solid #dddddd;
+}
+table.atencm tbody th {
+    padding: 10px;
+    border: 2px solid #dddddd;
+    color: #fff;
+    vertical-align: middle;
+    text-align: center;
+    background: #175378;
+}
+table.atencm tbody td {
+    padding: 10px;
+    border: 2px solid #dddddd;
+    background: #fff;
+    vertical-align: middle;
+    text-align: center;
+    width: 20%
+}
+table.atencm tbody td.hsbutton {
+    padding: 0;
+} 
+table.atencm tbody td.hsbutton:hover {
+    background: #f0f0f0;
+    cursor: pointer;
+}
