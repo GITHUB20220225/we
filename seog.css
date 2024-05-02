@@ -1,0 +1,78 @@
+table.hawonseog {
+    border-collapse: collapse;
+    border-spacing: 0px;
+    text-align: center;
+    font-size: 25px;
+    box-shadow: 0px 0px 0px 3px #25274d;
+    background: #25274d;
+    border-radius: 10px; 
+    line-height: 40px;
+    width: 625px;
+    table-layout: fixed;
+}
+table.hawonseog {
+    margin-left: auto;
+    margin-right: 0;
+}
+table.hawonseog thead th {
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    color: #000;
+    background: #f0f0f0;
+    border: 2px solid #dddddd;
+    text-align: center;
+    vertical-align: middle;
+}
+table.hawonseog thead td {
+    padding: 10px;
+    font-weight: normal;
+    vertical-align: top;
+    color: #000;
+    background: #fff;
+    vertical-align: middle;
+    text-align: center;
+    border: 2px solid #dddddd;
+}
+table.hawonseog thead th.thfull {
+    border: 2px solid #dddddd;
+    border-left: none;
+    border-right: none;
+}
+
+table.seogm {
+    border-collapse: collapse;
+    border-spacing: 0px;
+    text-align: center;
+    font-size: 25px;
+    box-shadow: 0px 0px 0px 3px #18296c;
+    background: #18296c;
+    border-radius: 10px; 
+    line-height: 40px;
+    width: 550px;
+    table-layout: fixed;
+}
+table.seogm {
+    margin-left: auto;
+    margin-right: 0;
+}
+table.seogm thead th {
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    color: #000;
+    background: #fff;
+    border: 2px solid #dddddd;
+    text-align: center;
+    vertical-align: middle;
+}
+table.seogm thead td {
+    padding: 10px;
+    font-weight: normal;
+    vertical-align: top;
+    color: #000;
+    background: #fff;
+    vertical-align: middle;
+    text-align: center;
+    border: 2px solid #dddddd;
+}
