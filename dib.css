@@ -1,0 +1,171 @@
+table.dib {
+    border-collapse: collapse;
+    border-spacing: 0px;
+    text-align: center;
+    font-size: 25px;
+    box-shadow: 0px 0px 0px 3px #1a2a6b;
+    background: #1a2a6b;
+    border-radius: 10px; 
+    line-height: 40px;
+    width: 525px;
+    table-layout: fixed;
+}
+table.dib {
+    margin-left: auto;
+    margin-right: 0;
+}
+table.dib thead th {
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    color: #be901c;
+    background: #1a2a6b;
+    border: 2px solid #dddddd;
+    border-left: none;
+    text-align: center;
+    vertical-align: middle;
+}
+table.dib thead td {
+    padding: 10px;
+    font-weight: normal;
+    vertical-align: top;
+    color: #000;
+    background: #fff;
+    vertical-align: middle;
+    text-align: left;
+    border: 2px solid #dddddd;
+}
+table.dib thead td.hsbutton {
+    padding: 0;
+} 
+table.dib thead td.hsbutton:hover {
+    background: #f0f0f0;
+    cursor: pointer;
+}
+
+table.dibwonnae {
+    border-collapse: separate;
+    border-spacing: 0px;
+    text-align: center;
+    font-size: 25px;
+    border: 3px solid skyblue;
+    border-radius: 10px; 
+    line-height: 40px;
+    width: 525px;
+    table-layout: fixed;
+}
+table.dibwonnae {
+    margin-left: auto;
+    margin-right: auto;
+}
+table.dibwonnae thead th {
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    color: #be901c;
+    background: skyblue;
+    border: 1px solid #dddddd;
+    text-align: center;
+    vertical-align: middle;
+}
+table.dibwonnae thead td {
+    padding: 10px;
+    font-weight: normal;
+    vertical-align: top;
+    color: #000;
+    background: #fff;
+    vertical-align: middle;
+    text-align: center;
+    border: 1px solid #dddddd;
+}
+table.dibwonnae tbody th {
+    padding: 10px;
+    border: 1px solid #dddddd;
+    border-left: 2px solid #dddddd;
+    border-right: 2px solid #dddddd;
+    color: #fff;
+    vertical-align: middle;
+    text-align: center;
+    background: skyblue;
+}
+table.dibwonnae tbody td {
+    padding: 10px;
+    font-weight: bold;
+    border: 1px solid #dddddd;
+    background: #fff;
+    vertical-align: middle;
+    text-align: center;
+}
+table.dibwonnae tbody td.hsbutton {
+    padding: 0;
+    border-left: 2px solid #dddddd;
+    border-right: 2px solid #dddddd;
+} 
+table.dibwonnae tbody td.hsbutton:hover {
+    background: #f0f0f0;
+    cursor: pointer;
+}
+
+table.dibcm {
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 25px;
+    box-shadow: 0px 0px 0px 3px #1a2a6b;
+    background: #1a2a6b;
+    border-radius: 10px; 
+    line-height: 40px;
+    width: 100%;
+    table-layout: fixed;
+    margin-bottom: 25px;
+}
+table.dibcm {
+    margin-left: auto;
+    margin-right: auto;
+}
+table.dibcm a{
+    color: #be901c;
+}
+table.dibcm thead th {
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    color: #be901c;
+    background: #1a2a6b;
+    border: 2px solid #dddddd;
+    text-align: center;
+    vertical-align: middle;
+}
+table.dibcm thead td {
+    padding: 10px;
+    font-weight: normal;
+    vertical-align: top;
+    color: #000;
+    background: #fff;
+    vertical-align: middle;
+    text-align: center;
+    border: 2px solid #dddddd;
+}
+table.dibcm tbody th {
+    padding: 10px;
+    border: 2px solid #dddddd;
+    border-left: none;
+    color: #be901c;
+    vertical-align: middle;
+    text-align: center;
+    background: #1a2a6b;
+    font-weight: normal;
+}
+table.dibcm tbody td {
+    padding: 10px;
+    border: 2px solid #dddddd;
+    background: #f0f0f0;
+    vertical-align: middle;
+    text-align: center;
+}
+table.dibcm tbody td.hsbutton {
+    padding: 0;
+} 
+table.dibcm tbody td.hsbutton:hover {
+    background: #f0f0f0;
+    cursor: pointer;
+}
