@@ -1,0 +1,163 @@
+table.prl {
+    border-collapse: collapse;
+    border-spacing: 0px;
+    text-align: center;
+    font-size: 25px;
+    box-shadow: 0px 0px 0px 3px #3a4f54;
+    background: #3a4f54;
+    border-radius: 10px; 
+    line-height: 40px;
+    width: 525px;
+    table-layout: fixed;
+}
+table.prl {
+    margin-left: auto;
+    margin-right: 0;
+}
+table.prl thead th {
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    color: #fff;
+    background: #3a4f54;
+    border: 2px solid #dddddd;
+    border-left: none;
+    text-align: center;
+    vertical-align: middle;
+}
+table.prl thead td {
+    padding: 10px;
+    font-weight: normal;
+    vertical-align: top;
+    color: #000;
+    background: #fff;
+    vertical-align: middle;
+    text-align: left;
+    border: 2px solid #dddddd;
+}
+
+table.prlwonnae {
+    border-collapse: separate;
+    border-spacing: 0px;
+    text-align: center;
+    font-size: 25px;
+    border: 3px solid #3a4f54;
+    border-radius: 10px; 
+    line-height: 40px;
+    width: 525px;
+    table-layout: fixed;
+}
+table.prlwonnae {
+    margin-left: auto;
+    margin-right: auto;
+}
+table.prlwonnae thead th {
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    color: #aa852a;
+    background: #3a4f54;
+    border: 1px solid #dddddd;
+    text-align: center;
+    vertical-align: middle;
+}
+table.prlwonnae thead td {
+    padding: 10px;
+    font-weight: normal;
+    vertical-align: top;
+    color: #000;
+    background: #fff;
+    vertical-align: middle;
+    text-align: center;
+    border: 1px solid #dddddd;
+}
+table.prlwonnae tbody th {
+    padding: 10px;
+    border: 1px solid #dddddd;
+    border-left: 2px solid #dddddd;
+    border-right: 2px solid #dddddd;
+    color: #fff;
+    vertical-align: middle;
+    text-align: center;
+    background: #3a4f54;
+}
+table.prlwonnae tbody td {
+    padding: 10px;
+    font-weight: bold;
+    border: 1px solid #dddddd;
+    background: #fff;
+    vertical-align: middle;
+    text-align: center;
+}
+table.prlwonnae tbody td.hsbutton {
+    padding: 0;
+    border-left: 2px solid #dddddd;
+    border-right: 2px solid #dddddd;
+} 
+table.prlwonnae tbody td.hsbutton:hover {
+    background: #f0f0f0;
+    cursor: pointer;
+}
+
+table.prlcm {
+    border-collapse: collapse;
+    border-spacing: 0px;
+    text-align: center;
+    font-size: 25px;
+    box-shadow: 0px 0px 0px 3px #3a4f54;
+    background: #3a4f54;
+    border-radius: 10px; 
+    line-height: 40px;
+    width: 100%;
+    table-layout: fixed;
+    margin-bottom: 25px;
+}
+table.prlcm {
+    margin-left: auto;
+    margin-right: auto;
+}
+table.prlcm a {
+    color: #fff;
+}
+table.prlcm thead th {
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    color: #fff;
+    background: #3a4f54;
+    border: 2px solid #dddddd;
+    text-align: center;
+    vertical-align: middle;
+}
+table.prlcm thead td {
+    padding: 10px;
+    font-weight: normal;
+    vertical-align: top;
+    color: #000;
+    background: #fff;
+    vertical-align: middle;
+    text-align: center;
+    border: 2px solid #dddddd;
+}
+table.prlcm tbody th {
+    padding: 10px;
+    border: 2px solid #dddddd;
+    color: #fff;
+    vertical-align: middle;
+    text-align: center;
+    background: #3a4f54;
+}
+table.prlcm tbody td {
+    padding: 10px;
+    border: 2px solid #dddddd;
+    background: #fff;
+    vertical-align: middle;
+    text-align: center;
+}
+table.prlcm tbody td.hsbutton {
+    padding: 0;
+} 
+table.prlcm tbody td.hsbutton:hover {
+    background: #f0f0f0;
+    cursor: pointer;
+}

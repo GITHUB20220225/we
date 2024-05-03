@@ -1,0 +1,42 @@
+table.naf {
+    border-collapse: collapse;
+    border-spacing: 0px;
+    text-align: center;
+    font-size: 25px;
+    box-shadow: 0px 0px 0px 3px skyblue;
+    background: skyblue;
+    border-radius: 10px; 
+    line-height: 40px;
+    width: 525px;
+    table-layout: fixed;
+}
+table.naf {
+    margin-left: auto;
+    margin-right: 0;
+}
+table.naf thead th {
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    color: #fff;
+    background: skyblue;
+    border: 2px solid #dddddd;
+    border-left: none;
+    text-align: center;
+    vertical-align: middle;
+}
+table.naf thead td {
+    padding: 10px;
+    font-weight: normal;
+    vertical-align: top;
+    color: #000;
+    background: #fff;
+    vertical-align: middle;
+    text-align: left;
+    border: 2px solid #dddddd;
+}
+table.naf thead th.thfull {
+    border: 2px solid #dddddd;
+    border-left: none;
+    border-right: none;
+}
