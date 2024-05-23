@@ -1,0 +1,140 @@
+table.munseo {
+    border-collapse: collapse;
+    border-spacing: 0px;
+    text-align: center;
+    font-size: 25px;
+    box-shadow: 0px 0px 0px 3px #18296c;
+    background: #18296c;
+    border-radius: 10px;  
+    line-height: 40px;
+    width: 525px;
+    table-layout: fixed
+}
+table.munseo {
+    margin-left: auto;
+    margin-right: 0;
+}
+table.munseo thead th {
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    color: #000;
+    background: #ffce04;
+    border: 2px solid #dddddd;
+    text-align: center;
+    vertical-align: middle;
+}
+table.munseo thead td {
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    color: #000;
+    background-color: #fff;
+    vertical-align: middle;
+    text-align: left;
+    border: 2px solid #dddddd;
+}
+table.munseo thead th.thfull {
+    border: 2px solid #dddddd;
+    border-left: none;
+    border-right: none;
+}
+table.munseo tbody th {
+    padding: 10px;
+    border: 2px solid #dddddd;
+    color: #fff;
+    vertical-align: middle;
+    text-align: center;
+    background: #18296c;
+}
+table.munseo tbody th.thfull {
+    border: 2px solid #dddddd;
+    border-left: none;
+    border-right: none;
+}
+table.munseo tbody td.tdfull {
+    border: 2px solid #dddddd;
+    text-align: center;
+    font-weight: bold;
+}
+table.munseo tbody th.th1 {
+    background: #ffce04;
+    color: #000;
+}
+table.munseo tbody td {
+    padding: 10px;
+    border: 2px solid #dddddd;
+    background: #fff;
+    vertical-align: middle;
+    text-align: left;
+}
+
+table.munseo tbody td.hsbutton {
+  padding: 0;
+}
+
+table.dargwry {
+    border-collapse: collapse;
+    border-spacing: 0px;
+    text-align: center;
+    font-size: 25px;
+    box-shadow: 0px 0px 0px 3px #18296c;
+    background: #18296c;
+    border-radius: 10px; 
+    line-height: 40px;
+    width: 100%;
+    table-layout: fixed;
+    margin-bottom: 25px;
+}
+table.dargwry {
+    margin-left: auto;
+    margin-right: auto;
+}
+table.dargwry thead th {
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    color: #aa852a;
+    background: #18296c;
+    border: 2px solid #dddddd;
+    text-align: center;
+    vertical-align: middle;
+}
+table.dargwry thead td {
+    padding: 10px;
+    font-weight: normal;
+    vertical-align: top;
+    color: #000;
+    background: #fff;
+    vertical-align: middle;
+    text-align: center;
+    border: 2px solid #dddddd;
+}
+table.dargwry tbody th {
+    padding: 10px;
+    border: 2px solid #dddddd;
+    color: #000;
+    vertical-align: middle;
+    text-align: center;
+    background: #ffce04;
+}
+table.dargwry tbody th.thfull {
+    color: #fff;
+    background: #18296c;
+    border-right: none;
+    border-left: none;
+}
+table.dargwry tbody td {
+    padding: 10px;
+    border: 2px solid #dddddd;
+    background: #fff;
+    vertical-align: middle;
+    text-align: left;
+}
+table.dargwry tbody td.hsbutton {
+    padding: 0;
+} 
+table.dargwry tbody td.hsbutton:hover {
+    background: #f0f0f0;
+    cursor: pointer;
+}
